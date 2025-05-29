@@ -64,6 +64,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onJoinWaitlist }) => {
               stagger={0.1}
               delay={0.5}
             />
+            {/* Hyper-Cortex: Cognitive Protocol for Advanced Reasoning */}
             <AnimatedText
               text="Chain-of-Thought Reasoning"
               element="span"
@@ -79,7 +80,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onJoinWaitlist }) => {
           <AnimatedText
             text="A New Reasoning Layer for Next-Gen Autonomous Agents"
             element="p"
-            className="text-xl md:text-2xl text-gray-300 font-light max-w-2xl mx-auto"
+            className="text-xl md:text-xl text-gray-300 font-light max-w-2xl mx-auto"
             animationType="words"
             stagger={0.05}
             delay={1.5}
